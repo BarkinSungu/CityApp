@@ -13,6 +13,8 @@
 		DABE90A027CE88CC00BFC0B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABE909E27CE88CC00BFC0B2 /* Main.storyboard */; };
 		DABE90A227CE88CE00BFC0B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABE90A127CE88CE00BFC0B2 /* Assets.xcassets */; };
 		DABE90A527CE88CE00BFC0B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABE90A327CE88CE00BFC0B2 /* LaunchScreen.storyboard */; };
+		DABE90AD27CE8A2100BFC0B2 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABE90AC27CE8A2100BFC0B2 /* DetailsViewController.swift */; };
+		DABE90AF27CE9A0C00BFC0B2 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABE90AE27CE9A0C00BFC0B2 /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DABE90A127CE88CE00BFC0B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DABE90A427CE88CE00BFC0B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DABE90A627CE88CE00BFC0B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABE90AC27CE8A2100BFC0B2 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		DABE90AE27CE9A0C00BFC0B2 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				DABE90A127CE88CE00BFC0B2 /* Assets.xcassets */,
 				DABE90A327CE88CE00BFC0B2 /* LaunchScreen.storyboard */,
 				DABE90A627CE88CE00BFC0B2 /* Info.plist */,
+				DABE90AC27CE8A2100BFC0B2 /* DetailsViewController.swift */,
+				DABE90AE27CE9A0C00BFC0B2 /* City.swift */,
 			);
 			path = CityApp;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DABE909D27CE88CC00BFC0B2 /* ViewController.swift in Sources */,
+				DABE90AF27CE9A0C00BFC0B2 /* City.swift in Sources */,
 				DABE909927CE88CC00BFC0B2 /* AppDelegate.swift in Sources */,
 				DABE909B27CE88CC00BFC0B2 /* SceneDelegate.swift in Sources */,
+				DABE90AD27CE8A2100BFC0B2 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
